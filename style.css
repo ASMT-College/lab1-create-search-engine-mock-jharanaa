@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+nav{
+height: 40px;
+margin:10px 0px 0px 1000px;
+}
+nav > a{
+    margin-left: 20px;
+}
+.search > img{
+    height: 270px;
+    width: auto;
+    margin-left: 450px;
+    position: absolute;
+    top: -5%;
+}
+.searchbar{
+    height: 45px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 150px 0px 0px 370px;
+    padding: 5px 0px 0px 15px;
+}
+.bar{
+    height: 37px;
+    width: 350px;
+    border: none;
+    outline:none;
+    margin-left: 5px;
+    font-size: 0.5cm;
+}
+.searchbar:hover{
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.searchbar:focus-within{
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.fa-microphone{
+    margin-right: 10px;
+}
+section{
+    margin:50px 0px 0px 440px;
+}
+section > ul > a{
+    border: 1px solid black;
+    padding:8px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+section > ul > a:hover{
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+section > p{
+    margin: 20px 0px 0px 70px;
+}
+section > p > a{
+    color: blue;
+}
+section > p > a:hover, nav > a:hover, footer > ul > a:hover{
+    text-decoration: underline;
+}
+.country{
+    margin-top: 160px;
+    height: 40px;
+    background-color: aliceblue;
+    padding: 10px 0px 0px 50px;
+    font-size: 0.5cm;
+}
+footer{
+    display: flex;
+    gap: 600px;
+    padding: 20px 50px;
+    height: 40px;
+}
+footer > ul > a{
+    margin-right: 15px;
+}
